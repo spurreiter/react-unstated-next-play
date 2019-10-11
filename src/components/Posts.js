@@ -25,7 +25,7 @@ const Posts = React.memo(({ posts = [], query, handleSearch, page, next = '', pr
   )
 })
 
-Posts.Connected = function PostsConnected (props) {
+Posts.Connect = (props) => {
   const posts = PostsStore.useContainer()
   return (
     <Posts {...props} {...posts} />
