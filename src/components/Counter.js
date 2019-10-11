@@ -11,7 +11,7 @@ const Counter = React.memo(props => {
   )
 })
 
-Counter.Connected = (props) => {
+Counter.Connect = (props) => {
   const counter = CounterStore.useContainer()
   return (
     <Counter {...props} {...counter} />

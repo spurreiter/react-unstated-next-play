@@ -2,6 +2,8 @@
 
 Playground using react and [unstated-next][].
 
+https://spurreiter.github.io/react-unstated-next-play/
+
 ## usage
 
 1. run  

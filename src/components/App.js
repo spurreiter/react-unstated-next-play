@@ -17,15 +17,15 @@ body { font-family: Arial, Helvetiva, sans-serif; }
       <ErrorBoundary>
         <h2>Counter</h2>
         <CounterStore.Provider>
-          <Counter.Connected />
+          <Counter.Connect />
         </CounterStore.Provider>
         <CounterStore.Provider initialState={{ initialCount: 2, step: 2 }}>
-          <Counter.Connected />
+          <Counter.Connect />
         </CounterStore.Provider>
         <hr />
         <h2>Posts</h2>
         <PostsStore.Provider>
-          <Posts.Connected />
+          <Posts.Connect />
         </PostsStore.Provider>
       </ErrorBoundary>
     </>
