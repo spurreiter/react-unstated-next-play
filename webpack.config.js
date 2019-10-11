@@ -11,7 +11,6 @@ module.exports = {
 
         options: {
           plugins: [
-            'syntax-dynamic-import',
             '@babel/plugin-transform-runtime'
           ],
 
